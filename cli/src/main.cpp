@@ -102,7 +102,7 @@ int main(int argc, char const *argv[])
         return 1;
     }
 
-    cmd = "sed -i 's/MyProject/" + name + "/g' " + folderPath + "/README.md";
+    cmd = "sed -i '1 s/MyProject/" + name + "/g' " + folderPath + "/README.md";
     std::cout << cmd << "\n\n";
     result = execCommand(cmd, exitStatus);
     if (exitStatus != 0)
