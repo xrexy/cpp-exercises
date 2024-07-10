@@ -2,6 +2,7 @@
 #include <limits>
 #include <string>
 
+// Template function to prompt the user for input of any data type
 template <typename T>
 T prompt(const std::string &message, bool (*validationFunc)(T))
 {
