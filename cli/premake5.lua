@@ -1,9 +1,9 @@
-workspace "MyProject"
+workspace "ProjectCLI"
    configurations { "Debug", "Release" }
    platforms { "Linux", "Windows" }
    location "build"
 
-project "MyProject"
+project "ProjectCLI"
    kind "ConsoleApp"
    language "C++"
    targetdir "bin/%{cfg.buildcfg}_%{cfg.platform}"

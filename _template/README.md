@@ -1,4 +1,4 @@
-# expenses-cli
+# MyProject
 
 ## Building
 
