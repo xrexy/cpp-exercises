@@ -7,14 +7,14 @@ public:
     Node *next;
 };
 
-class LinkedList
+class DoubleLinkedList
 {
 public:
     Node *head;
     Node *tail;
     int length;
 
-    LinkedList()
+    DoubleLinkedList()
     {
         head = nullptr;
         tail = nullptr;
@@ -107,7 +107,7 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    LinkedList list{};
+    DoubleLinkedList list{};
 
     const auto size = 50;
     for (int i = 0; i < size; i++)
