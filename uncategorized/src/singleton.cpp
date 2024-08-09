@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <string>
 
 class Singleton
@@ -8,18 +7,18 @@ private:
     std::string value;
     Singleton()
     {
-        value = "ctor-random";
+        value = "ctor";
         std::cout << "Singleton instance created!" << std::endl;
     }
 
-    // Declare copy constructor and assignment operator as deleted to prevent copying.
+    // declare copy constructor and assignment operator as deleted to prevent copying.
     Singleton(const Singleton &) = delete;
     Singleton &operator=(const Singleton &) = delete;
 
 public:
     static Singleton &getInstance()
     {
-        static Singleton instance; // This instance is created only once.
+        static Singleton instance; // this instance is created only once since it is static
         return instance;
     }
 

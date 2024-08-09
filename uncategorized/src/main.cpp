@@ -28,6 +28,7 @@ void doSingletonTests()
 
     std::cout << "Addresses are the same: " + std::to_string(&s1 == &s2) << std::endl;
 }
+
 int main(int argc, char const *argv[])
 {
     doSingletonTests();
