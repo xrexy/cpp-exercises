@@ -45,9 +45,19 @@ public:
         return *str == *(other.str);
     }
 
+    bool operator==(const std::string &other) const
+    {
+        return *str == other;
+    }
+
     bool operator!=(const String &other) const
     {
         return *str != *(other.str);
+    }
+
+    bool operator!=(const std::string &other) const
+    {
+        return *str != other;
     }
 
     const std::string &get() const
