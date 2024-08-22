@@ -10,4 +10,7 @@ Before running make sure you have all lib files (.dll for windows, and .so for l
 
 ```bash
 ❯ export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
+
+# ... or run the application like
+❯ LD_LIBRARY_PATH=./lib ./app
 ```
