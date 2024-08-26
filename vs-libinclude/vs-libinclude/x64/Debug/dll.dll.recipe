@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>Z:\cpp-exercises\vs-libinclude\x64\Debug\dll.dll</FullPath>
+      <FullPath>Z:\cpp-exercises\vs-libinclude\Bin\Debug\x64\dll.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

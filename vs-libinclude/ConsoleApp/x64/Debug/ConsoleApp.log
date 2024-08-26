@@ -1,2 +1,3 @@
-﻿  ConsoleApp.vcxproj -> Z:\cpp-exercises\vs-libinclude\x64\Debug\ConsoleApp.exe
-  0 File(s) copied
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  LINK : Z:\cpp-exercises\vs-libinclude\\Bin\Debug\x64\ConsoleApp.exe not found or not built by the last incremental link; performing full link
+  ConsoleApp.vcxproj -> Z:\cpp-exercises\vs-libinclude\Bin\Debug\x64\ConsoleApp.exe

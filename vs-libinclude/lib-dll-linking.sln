@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static", "static\static.vcxproj", "{FB1C8620-A873-4DF2-B512-22AB60413E9D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NestedDLL", "NestedDLL\NestedDLL.vcxproj", "{915F0BC2-2302-445B-9AA4-3A9E04E6398B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{FB1C8620-A873-4DF2-B512-22AB60413E9D}.Release|x64.Build.0 = Release|x64
 		{FB1C8620-A873-4DF2-B512-22AB60413E9D}.Release|x86.ActiveCfg = Release|Win32
 		{FB1C8620-A873-4DF2-B512-22AB60413E9D}.Release|x86.Build.0 = Release|Win32
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Debug|x64.ActiveCfg = Debug|x64
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Debug|x64.Build.0 = Debug|x64
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Debug|x86.ActiveCfg = Debug|Win32
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Debug|x86.Build.0 = Debug|Win32
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Release|x64.ActiveCfg = Release|x64
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Release|x64.Build.0 = Release|x64
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Release|x86.ActiveCfg = Release|Win32
+		{915F0BC2-2302-445B-9AA4-3A9E04E6398B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
