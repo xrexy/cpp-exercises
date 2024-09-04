@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/desktop/Code/cpp/crossplatform-libinclude",
+    "cmake.buildDirectory": "${workspaceFolder}/crossplatform-libinclude/build"
+}
